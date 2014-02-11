@@ -1,0 +1,707 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*---FIN RESET---*/
+body .cf:before,
+body .cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+body .cf:after {
+  clear: both;
+}
+body .cf {
+  clear: both;
+}
+body .cf {
+  *zoom: 1;
+}
+body {
+  font: 300 12px 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #1d2606;
+  background-image: url('img/motif.jpg');
+}
+.contenu {
+  width: 88.75em;
+  margin: 0 auto;
+}
+h1 {
+  display: none;
+}
+.agence-nom {
+  font: 1.375em 'Roboto', sans-serif;
+  /*17px*/
+  margin: .2em 0 .1em 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+h2 {
+  font: 300 1.875em 'Roboto Condensed', sans-serif;
+  /*30px*/
+  color: #1d2606;
+  text-transform: uppercase;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #1d2606;
+  margin-bottom: 1em;
+}
+h3 {
+  font: 300 1.5625em 'Roboto Condensed', sans-serif;
+  /*25px*/
+  color: #1d2606;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+h4 {
+  font: 300 1.375em 'Roboto Condensed', sans-serif;
+  /*22px*/
+  text-transform: uppercase;
+}
+h5 {
+  font: 300 1.25em 'Roboto', sans-serif;
+}
+p {
+  font: 300 1.25em 'Roboto', sans-serif;
+  /*20px*/
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #1d2606;
+}
+a:hover {
+  color: #93d80f;
+}
+strong {
+  font-weight: 400;
+}
+#agence header nav .onglet-agence {
+  background-color: #93d80f;
+  background-image: url('img/icons/icon-agence-h.png');
+}
+#agence header nav .onglet-agence a {
+  color: #ffffff;
+}
+#banque header nav .onglet-banque {
+  background-color: #93d80f;
+  background-image: url('img/icons/icon-banque-h.png');
+}
+#banque header nav .onglet-banque a {
+  color: #ffffff;
+}
+#assurances header nav .onglet-assurances {
+  background-color: #93d80f;
+  background-image: url('img/icons/icon-assurances-h.png');
+}
+#assurances header nav .onglet-assurances a {
+  color: #ffffff;
+}
+#plan-acces header nav .onglet-plan {
+  background-color: #93d80f;
+  background-image: url('img/icons/icon-plan-h.png');
+}
+#plan-acces header nav .onglet-plan a {
+  color: #ffffff;
+}
+#contact header nav .onglet-contact {
+  background-color: #93d80f;
+  background-image: url('img/icons/icon-contact-h.png');
+}
+#contact header nav .onglet-contact a {
+  color: #ffffff;
+}
+header nav {
+  clear: both;
+  margin-top: 7em;
+}
+header nav li {
+  display: inline-block;
+  margin: 0 2.276em;
+  width: 13em;
+  text-align: center;
+  padding-bottom: .3em;
+  background-size: 45px;
+  background-repeat: no-repeat;
+  background-position: center 13px;
+}
+header nav li a {
+  font: 300 1.875em 'Roboto Condensed', sans-serif;
+  /*23px*/
+  display: block;
+  padding-top: 3em;
+  color: #93d80f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header nav li:hover {
+  background-color: #93d80f;
+}
+header nav li:hover a {
+  color: #ffffff;
+}
+header nav .onglet-agence {
+  background-image: url('img/icons/icon-agence.png');
+}
+header nav .onglet-agence:hover {
+  background-image: url('img/icons/icon-agence-h.png');
+}
+header nav .onglet-banque {
+  background-image: url('img/icons/icon-banque.png');
+}
+header nav .onglet-banque:hover {
+  background-image: url('img/icons/icon-banque-h.png');
+}
+header nav .onglet-assurances {
+  background-image: url('img/icons/icon-assurances.png');
+}
+header nav .onglet-assurances:hover {
+  background-image: url('img/icons/icon-assurances-h.png');
+}
+header nav .onglet-plan {
+  background-image: url('img/icons/icon-plan.png');
+}
+header nav .onglet-plan:hover {
+  background-image: url('img/icons/icon-plan-h.png');
+}
+header nav .onglet-contact {
+  background-image: url('img/icons/icon-contact.png');
+}
+header nav .onglet-contact:hover {
+  background-image: url('img/icons/icon-contact-h.png');
+}
+.abs-logo {
+  margin-top: 1.8em;
+}
+.crelan-logo {
+  float: right;
+  text-align: right;
+}
+.crelan-logo div {
+  background-color: #1d2606;
+  display: inline-block;
+  padding: 2em 1.45em .5em;
+  margin-bottom: 0.3em;
+}
+.crelan-logo .lien-gm {
+  font: 300 1.5625em 'Roboto', sans-serif;
+  /*19px*/
+  color: #1d2606;
+  text-align: left;
+  width: 13.8em;
+  background: url('img/icons/icon-address.png') no-repeat 20px 5px;
+  background-size: 33px;
+  padding-left: 3em;
+  line-height: 1.1em;
+  display: block;
+  text-decoration: none;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.crelan-logo .lien-gm:hover,
+.crelan-logo .lien-gm:active {
+  background-position: 20px 0px;
+}
+.absassurances img {
+  box-shadow: 0px 2px 3px rgba(29, 38, 6, 0.8);
+}
+.absassurances-infos {
+  background-color: #1d2606;
+  margin-top: -0.2em;
+  padding: 1em;
+}
+.absassurances-infos li {
+  color: #ffffff;
+  font: 300 1.375em 'Roboto', sans-serif;
+  /*22px*/
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 27px;
+  padding: 0.2em 0em 0.2em 2em;
+  margin-right: 3.213em;
+}
+.absassurances-infos li:last-child {
+  margin-right: 0;
+}
+.absassurances-infos li a {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.absassurances-infos li a:hover {
+  text-decoration: underline;
+}
+.infos-telephone {
+  background-image: url('img/icons/icon-phone.png');
+}
+.infos-email {
+  background-image: url('img/icons/icon-email.png');
+}
+.infos-faxe {
+  background-image: url('img/icons/icon-faxe.png');
+}
+.infos-parking {
+  background-image: url('img/icons/icon-parking.png');
+}
+.main {
+  margin-top: 2em;
+}
+.page {
+  width: 58.75em;
+  /*705px - 8col*/
+  float: left;
+  margin: 2.1em 1.25em 2em 0;
+}
+.page img {
+  box-shadow: 1px 1px 2px rgba(29, 38, 6, 0.7);
+}
+.page li {
+  font: 300 1.25em 'Roboto', sans-serif;
+  /*20px*/
+  line-height: 1.4em;
+}
+.page ul {
+  margin-bottom: 1em;
+}
+/*---------PAGE AGENCE----------*/
+.agence-img1 {
+  float: left;
+  margin-right: 1.25em;
+  margin-bottom: 1.25em;
+}
+.agence-img2 {
+  margin-right: 1.25em;
+  float: left;
+}
+.self {
+  float: left;
+  width: 13.7513em;
+  margin: 3.1em 1.25em 3.1em 0;
+}
+.self p {
+  text-align: center;
+  width: 8.5em;
+  margin: 0 auto;
+  background-color: #1d2606;
+  border-radius: 110px;
+  padding: 2.95em 0.8em;
+  font-weight: 400;
+  color: #ffffff;
+}
+.agence-img3 {
+  float: left;
+}
+/*---------PAGE BANQUE----------*/
+.page .banque-img1 {
+  margin: 0 auto;
+  width: 28.75em;
+  display: block;
+  margin-bottom: 2.5em;
+}
+.page .banque-img1 img {
+  box-shadow: none;
+}
+.slogan {
+  background: url('img/quote.png') no-repeat;
+  background-size: 38px;
+  font-weight: 400;
+  font-size: 1.375em;
+  /*22px*/
+  padding: 1.15em 0 0 2.8em;
+}
+.banque-img2 {
+  float: right;
+  margin: 0 0 1.25em 1.25em;
+}
+.placements {
+  width: 28.75em;
+  float: left;
+}
+.avantages {
+  float: left;
+  width: 7em;
+  height: 4em;
+}
+.lien-crelan {
+  background-color: #1d2606;
+  display: inline-block;
+  padding: .6em 1em;
+  margin-top: 0.5em;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.lien-crelan:hover {
+  background-color: #93d80f;
+}
+.lien-crelan img {
+  box-shadow: none;
+}
+/*---------PAGE ASSURANCES----------*/
+.lien-brocom {
+  margin: 0 auto;
+  width: 28.75em;
+  display: block;
+  margin-bottom: 2.5em;
+}
+.lien-brocom img {
+  box-shadow: none;
+}
+aside {
+  width: 28.75em;
+  /*4col - 345px*/
+  float: left;
+  font-weight: 400;
+}
+aside > section {
+  margin-bottom: 2em;
+  background-color: #93d80f;
+  color: #1d2606;
+  padding: 2em;
+  box-shadow: 1px 1px 2px rgba(29, 38, 6, 0.7);
+}
+aside > section h2 {
+  color: #1d2606;
+  border-bottom: 1px solid #1d2606;
+}
+aside > section h3 {
+  color: #1d2606;
+}
+.heures tr {
+  display: block;
+  width: 10.444em;
+  margin-bottom: .8em;
+}
+.heures .jours {
+  width: 3em;
+  float: left;
+  display: inline-block;
+}
+.heures table {
+  font-size: 1.125em;
+  /*18px*/
+}
+.heures-banque {
+  float: left;
+  width: 11.7513em;
+  margin-right: 1.25em;
+}
+.affiche-mois img {
+  box-shadow: 1px 1px 2px rgba(29, 38, 6, 0.7);
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.affiche-mois img:hover {
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+}
+.affiche-mois ul {
+  float: left;
+  width: 3.8889em;
+}
+.affiche-mois li {
+  margin-bottom: 1.25em;
+  height: 5.3125em;
+}
+/*---------PAGE CONTACT----------*/
+.contact-form div {
+  margin-bottom: 1em;
+}
+.contact-form .contact-right {
+  margin-bottom: .2em;
+}
+label {
+  font: 300 1.375em 'Roboto Condensed', sans-serif;
+  display: block;
+  margin-bottom: .2em;
+}
+input,
+textarea {
+  border: 1px solid #93d80f;
+  box-shadow: inset 1px 1px 1px rgba(72, 78, 66, 0.2);
+  width: 21.9em;
+  height: 1em;
+  font: 300 1.25em 'Roboto', sans-serif;
+  padding: .5em;
+}
+textarea {
+  height: 10.38em;
+}
+input[type="submit"] {
+  border: none;
+  background-color: #93d80f;
+  box-shadow: 1px 1px 2px rgba(29, 38, 6, 0.7);
+  font: 400 1.5em 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 6em;
+  height: 2.2em;
+  cursor: pointer;
+  float: right;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #1d2606;
+}
+.contact-left,
+.contact-right {
+  float: left;
+  width: 28.75em;
+}
+.contact-left {
+  margin-right: 1.25em;
+}
+.contact-coordonnees {
+  margin-bottom: 1.25em;
+}
+.contact-coordonnees ul {
+  float: left;
+  width: 28.75em;
+}
+.contact-coordonnees .list1 {
+  margin-right: 1.25em;
+}
+.contact-coordonnees li {
+  font-size: 1.4em;
+  background-repeat: no-repeat;
+  padding-left: 1.7em;
+  background-size: 23px;
+  margin-bottom: 1em;
+  background-position: 0px -4px;
+}
+.coordonnees-telephone {
+  background-image: url('img/icons/contact-phone.png');
+}
+.coordonnees-faxe {
+  background-image: url('img/icons/contact-faxe.png');
+}
+.coordonnees-email {
+  background-image: url('img/icons/contact-email.png');
+}
+footer {
+  background-color: #484e42;
+}
+footer > .contenu {
+  padding-bottom: 1em;
+}
+footer nav {
+  width: 43.75em;
+  /*525px - 6col*/
+  float: left;
+  padding-top: 4.5em;
+  margin-top: 3.6em;
+}
+footer li {
+  display: inline-block;
+  margin-right: 1.5341em;
+  font-size: 1.5625em;
+}
+footer li a {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-decoration: none;
+}
+footer li a:hover {
+  color: #93d80f;
+}
+footer li:last-child {
+  margin-right: 0;
+}
+footer .brocom {
+  float: right;
+  margin-top: 1.5em;
+}
+.aggregation {
+  background-color: #484e42;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.aggregation p {
+  font-size: 1em;
+  padding: 0.3em 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.copyright {
+  color: #93d80f;
+  margin-top: 1em;
+  padding: 0.7em 0 0.8em 0;
+  border-top: 1px dashed #93d80f;
+}
+.copyright p {
+  font-size: 1em;
+  padding-left: 2.8em;
+  margin-top: .5em;
+}
+.copyright a {
+  color: #93d80f;
+  text-decoration: underline;
+  height: 2.7em;
+  width: 2.5em;
+}
+.copyright a:hover {
+  color: #ffffff;
+}
+.lien-mk {
+  float: left;
+  background: url('img/mk-signature.png') no-repeat;
+  background-size: 30px;
+}
+.lien-mk:hover,
+.lien-mk:active {
+  background: url('img/mk-signature-h.png');
+  background-size: 30px;
+}
